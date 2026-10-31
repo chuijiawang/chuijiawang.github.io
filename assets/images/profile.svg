@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 380" role="img" aria-label="Profile photo placeholder">
+  <rect width="300" height="380" fill="#ece6d8"/>
+  <rect x="14" y="14" width="272" height="352" fill="none" stroke="#cfc7b4" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <text x="150" y="186" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#9b9486">Profile photo</text>
+  <text x="150" y="214" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#9b9486">replace with your own image</text>
+</svg>
