@@ -273,14 +273,13 @@ h2 {
   gap: 14px;
   margin: 1em 0;
 }
-a.topic-card {
+.topic-card {
   display: block;
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   padding: 16px 18px;
   color: var(--ink);
-  border-bottom: 1px solid var(--line);
 }
 a.topic-card:hover { border-color: var(--accent); color: var(--accent); }
 a.topic-card .tc-name { font-weight: 700; }
