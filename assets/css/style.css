@@ -268,17 +268,17 @@ h2 {
 
 /* topic cards with detail pages */
 .topic-cards {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
   margin: 1em 0;
 }
 .topic-card {
-  display: block;
+  width: fit-content;
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  padding: 16px 18px;
+  padding: 9px 15px;
   color: var(--ink);
 }
 a.topic-card:hover { border-color: var(--accent); color: var(--accent); }
