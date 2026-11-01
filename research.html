@@ -14,6 +14,11 @@
     <div class="container">
       <a class="site-name" href="index.html">Chuijia Wang</a>
       <nav class="site-nav" aria-label="Main navigation">
+        <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+            <path d="M3 6h18M3 12h18M3 18h18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </button>
         <ul>
           <li><a href="index.html">About</a></li>
           <li><a href="research.html" aria-current="page">Research</a></li>
@@ -31,31 +36,11 @@
       <p>
         My research focuses on the representation theory of reductive groups and Lie theory,
         and its applications to number theory, combinatorics, and mathematical physics.
-        More precisely, I am broadly interested in the topics below.
+        More precisely, I am broadly interested in the topics below. Click any card for
+        a short explanation.
       </p>
     </div>
-   <div class="topic-cards">
-  <div class="topic-card">
-    <span class="tc-name">Representation theory of p-adic groups</span>
-  </div>
-  <div class="topic-card">
-    <span class="tc-name">Relative Langlands programme: distinction and functoriality</span>
-  </div>
-  <div class="topic-card">
-    <span class="tc-name">Galois cohomology</span>
-  </div>
-  <div class="topic-card">
-    <span class="tc-name">Intertwining operators</span>
-  </div>
-  <div class="topic-card">
-    <span class="tc-name">Bruhat–Tits theory</span>
-  </div>
-  <div class="topic-card">
-    <span class="tc-name">Kazhdan–Lusztig theory</span>
-  </div>
-</div>
 
-<!--
     <div class="topic-cards">
       <a class="topic-card" href="topics/p-adic-groups.html">
         <span class="tc-name">Representation theory of p-adic groups</span>
@@ -86,8 +71,8 @@
         <span class="tc-desc">Hecke algebras, KL polynomials, and representations of Coxeter groups</span>
       </a>
     </div>
--->
-    <h2>Publications and Preprints</h2>
+
+    <h2>Published and accepted</h2>
 
     <article class="pub-item">
       <p class="pub-title">Distinction of the Steinberg representation with respect to a symmetric pair</p>
@@ -128,5 +113,6 @@
     </div>
   </footer>
 
+  <script src="assets/js/nav.js"></script>
 </body>
 </html>
