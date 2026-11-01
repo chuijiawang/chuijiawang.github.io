@@ -236,10 +236,10 @@ h2 {
 .page-title h1 { font-size: 2rem; margin: 0 0 .3em; }
 .page-title p { color: var(--muted); max-width: 660px; }
 
-.pub-item { padding: 1.1em 0; border-bottom: 1px solid var(--line); }
-.pub-item .pub-title { font-size: 1.08rem; font-style: italic; margin: 0 0 .25em; }
-.pub-item .pub-meta { color: var(--muted); font-size: .95rem; margin: 0 0 .4em; }
-.pub-item .pub-links { font-family: var(--sans); font-size: .85rem; }
+.pub-item { padding: .65em 0; border-bottom: 1px solid var(--line); }
+.pub-item .pub-title { font-size: 1.05rem; font-style: italic; margin: 0 0 .15em; }
+.pub-item .pub-meta { color: var(--muted); font-size: .92rem; margin: 0 0 .2em; }
+.pub-item .pub-links { font-family: var(--sans); font-size: .85rem; margin: 0; }
 .pub-item .pub-links a { margin-right: 12px; }
 
 .school-block h3 { font-size: 1.18rem; margin: 1.6em 0 .5em; }
@@ -277,17 +277,16 @@ h2 {
 
 /* topic cards with detail pages */
 .topic-cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
   margin: 1em 0;
 }
 .topic-card {
-  width: fit-content;
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  padding: 6px 12px;
+  padding: 8px 14px;
   color: var(--ink);
 }
 a.topic-card:hover { border-color: var(--accent); color: var(--accent); }
@@ -338,3 +337,4 @@ a.topic-card .tc-desc {
   .site-nav ul.open { display: flex; }
   .site-nav li { padding: 9px 20px; }
 }
+/* （注：内容由AI生成） */
