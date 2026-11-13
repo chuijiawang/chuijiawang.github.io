@@ -238,6 +238,7 @@ h2 {
 
 .pub-item { padding: .65em 0; border-bottom: 1px solid var(--line); }
 .pub-item .pub-title { font-size: 1.05rem; font-style: italic; margin: 0 0 .15em; }
+.pub-item .pub-title .joint { font-style: normal; }
 .pub-item .pub-meta { color: var(--muted); font-size: .92rem; margin: 0 0 .2em; }
 .pub-item .pub-links { font-family: var(--sans); font-size: .85rem; margin: 0; }
 .pub-item .pub-links a { margin-right: 12px; }
