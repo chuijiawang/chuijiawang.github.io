@@ -34,6 +34,29 @@
   letter-spacing: .04em;
   margin: 1.4em 0 .5em;
 }
+        .friends-toggle { margin-top: 2.2em; }
+    .friends-toggle summary {
+      list-style: none;
+      cursor: pointer;
+      font-family: var(--sans);
+      font-size: 1.05rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .09em;
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .friends-toggle summary::-webkit-details-marker { display: none; }
+    .friends-toggle summary .marker {
+      display: inline-block;
+      width: 16px;
+      font-weight: 400;
+      transition: transform .2s ease;
+    }
+    .friends-toggle[open] summary .marker { transform: rotate(45deg); }
+
   </style>
 </head>
 <body>
@@ -80,7 +103,9 @@
      <a href="https://sites.google.com/view/jiandizou/home" rel="noopener" target="_blank">Jiandi Zou</a>
     </div>
 
-    <h2>Other Friends</h2>
+   <details class="friends-toggle">
+  <summary><span class="marker">+</span>Other Friends</summary>
+
     <h3>Representation Theorists and Number Theorists</h3>
 <div class="friend-pills">
      <a href="https://sites.google.com/view/peiyicuimath" rel="noopener" target="_blank">Peiyi Cui</a>
@@ -110,7 +135,7 @@
  <a href="https://pangtongyao.github.io/" rel="noopener" target="_blank">Tongyao Pang</a>
   <a href="https://sites.google.com/view/yangjingzhang/" rel="noopener" target="_blank">Yangjing Zhang</a>
   </div>
-   
+  </details>
 
   </main>
 
